@@ -1,0 +1,38 @@
+﻿Build started 12/06/2017 20:44:31.
+     1>Project "C:\Users\User\Desktop\Project_DG_LZ\Project\Server\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\visual studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt serverClass.cpp
+         serverClass.cpp
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(448): warning C4101: 'recv_buff' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(449): warning C4101: 'sockHelp' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(594): warning C4101: 'buff' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(1048): warning C4101: 'recv_buff' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(1309): warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(1305): warning C4101: 'currChars' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(1741): warning C4101: 'check' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(1745): warning C4101: 'recv_buff' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(1743): warning C4101: 'sockHelp' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(1741): warning C4101: 'currChars' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(2065): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(2474): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(2726): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(2744): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(2762): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(2780): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(3143): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(3399): warning C4101: 'oor' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(3512): warning C4101: 'oor' : unreferenced local variable
+     1>c:\users\user\desktop\project_dg_lz\project\server\project1\serverclass.cpp(3648): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         F:\visual studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\Project_DG_LZ\Project\Server\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Desktop\Project_DG_LZ\Project\Server\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\Project_DG_LZ\Project\Server\Debug\Project1.lib" /MACHINE:X86 ws2_32.lib Debug\DataBase.obj
+         Debug\helper.obj
+         Debug\main.obj
+         Debug\serverClass.obj
+         Debug\sqlite3.obj
+         Debug\User.obj
+         Project1.vcxproj -> C:\Users\User\Desktop\Project_DG_LZ\Project\Server\Debug\Project1.exe
+     1>Done Building Project "C:\Users\User\Desktop\Project_DG_LZ\Project\Server\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26
